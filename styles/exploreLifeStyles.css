@@ -1,0 +1,115 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{text-align:center; background:#000000; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#222222; margin:0; padding:0}
+
+#wrapper{margin: 0 auto 0 auto; text-align:left; background:#ffffff; width:770px; border-left:#ffffff 5px solid; border-right:#ffffff 5px solid;}
+
+
+#header {
+	width: 770px;
+	height: 75px;
+	margin: 0 ;
+	xborder-bottom:#fff 5px solid;
+}
+
+#logo {
+	float: left;
+	width: 240px;
+	height: 75px;
+}
+
+
+
+
+#menu {
+	float: right;
+	xwidth: 310px;
+	
+}
+
+#menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#menu li {
+	display: inline;
+}
+
+#menu a {
+	display: block;
+	float: left; font-weight:bold;
+	height: 40px;
+	padding: 30px 8px 0 8px;
+	background: url(../images/img1.gif) no-repeat;
+	text-decoration: none;
+	
+	color: #000000;
+}
+
+#menu a:hover {
+	color: #DB011C;
+}
+
+#featurePanel{width:770px;height:300px; xborder-bottom:#fff 5px solid; border-bottom:#fff 5px solid; background:red  }
+#flashPanel{float:left}
+
+#subsPanel{float:left;  width:240px;xheight:175px; color:#ffffff; background:#000 url(../images/subFormBG.jpg) left no-repeat; margin-bottom:10px }
+#subsPanel h1{color:#fff; margin:0 0 3px 0}
+#subsPanel form{padding:10px 10px 0 10px; margin:0}
+
+input{border:#fff 1px solid; background:#e4e4e4; margin:0 0 3px 0}
+
+#main{background:#ffffff url(../images/sideBarBG.jpg) top left repeat-y; }
+
+
+#content{width:510px;float:left; }
+#sideBar{width:240px; float:left;  }
+
+#sideBar #inner h1 {padding:15px 0 10px 0px;}
+#sideBar #inner p {border-bottom:#999999 1px dashed; margin:0 10px 5px 0; padding:0 0 5px 0}
+
+#sideButton{width:240px; height:40px; background:#000;margin:0 0 5px 0}
+#sideButton img{float:left}
+#sideButton a {color:#fff; text-decoration:none; font-size:20px; line-height:40px ; padding:0 0 0 5px; }
+#sideButton a:hover{color:#666; text-decoration:none}
+
+#inner.blogLink{color:#FFFFFF;height:auto; background:#000; padding-top:10px; margin-bottom:10px}
+#inner.blogLink img{float:left; padding-right:10px}
+#inner.blogLink h1{color:#fff}
+
+#footer{text-align:right; xpadding:15px 0 0 0; border-top:#ffffff 12px solid; background:#fff none; xmargin:15px 0 0 0}
+#footer p {border-top:#DB011C 4px solid; padding:5px;color:#999999}
+#footer a{color:#999999}
+
+#pageHeading{background:#DB011C; color:#fff; width:100%; margin:0; width:520px; margin-bottom:-10px}
+#pageHeading h1{ color:#fff; padding:15px 0 0 10px; font-size:30px;text-transform:uppercase;}
+#pageHeading img {margin-bottom:-10px}
+
+.faded{color:#999999; font-size:9px}
+.reset{clear:both}
+#inner{padding:0 0 10px 10px}
+
+
+
+/*type stuff*/
+h1, h2, h3, h4, h5, h6 {font-weight:100;  color:#000; margin:0 }
+h1{ font-size:18px}
+h2{}
+h3{font-size:12px}
+h4{}
+h5{}
+h6{}
+
+xp{margin:0 10px 5px 0; padding:0 0 5px 0}
+p img{padding:0 10px 10px 0; float:left}
+
+a, a:hover , a:visited{}
+a{color:#DB011C; text-decoration:none}
+a:hover{text-decoration:underline}
+
+img{border:#ffffff 0px solid}
+
+b, strong{color:#DB011C; font-weight:bolder}
